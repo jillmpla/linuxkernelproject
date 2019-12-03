@@ -1,3 +1,3 @@
 # linuxkernelproject
 
-Kernel used - 
+Kernel version used - 4.19.87
