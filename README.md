@@ -8,7 +8,7 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and can be added without recompiling the entire kernel. They are particularly useful when developing for the kernel.
 
 <b>To Use:</b>
-- download procfun.c and Makefile from folder "ToUse" in this GitHub
+- download procfun.c and Makefile from folder "Code" in this GitHub
 - <i>sudo -s</i> - to stay in superuser mode
 - <i>apt-get install linux-headers-generic</i> - installs Linux headers (if you need to)
 - run <i>make</i> command within directory procfun.c and accompanying Makefile are located
