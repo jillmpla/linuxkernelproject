@@ -19,8 +19,8 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 <b>To Use on a Linux machine:</b>
 - download <i>devstate.c</i> and <i>Makefile</i> from folder "Code" in this GitHub
 - <b>sudo -s</b> - to stay in superuser mode
-- <b>apt-get install linux-headers-generic</b> - installs Linux headers (if you need to)
-- run <b>make</b> command within directory <i>devstate.c</i> and accompanying <i>Makefile</i> are located
+- <b>cd</b> to where the <i>devstate.c</i> and accompanying <i>Makefile</i> are located
+- run <b>make</b> command
 - <b>insmod devstate.ko</b> - load the module into the kernel
 - <b>lsmod</b> - list kernel modules that are currently running, look for devstate
 - <i>To Write: </i><b>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</b> - updates/overwrites previous development state message
