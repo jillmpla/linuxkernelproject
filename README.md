@@ -2,7 +2,7 @@
 
 Focus was placed on learning about and understanding /proc, how to communicate between user-space and kernel-space, as well as how to load and unload kernel modules while the kernel is running.
 
-<b>Overview:</b>
+<b>Project Overview:</b>
 
 - The proc file system is a virtual file system created when the system boots and destroyed at system shut down. It contains information about various processes running and is generally considered the main kernel information source about the kernel while the kernel is running.
 - Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and can be added without recompiling the entire kernel. They are particularly useful when developing for the kernel and debugging the kernel while the kernel is live.
