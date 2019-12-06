@@ -1,4 +1,4 @@
-<b>A loadable Linux Kernel Module (LKM) that creates a "pseudo"-file in /proc and provides read + write functionality for a message on the current development state of a running kernel.</b>
+<b>A loadable Linux Kernel Module (LKM) that creates a "pseudo"-file in /proc and provides read + write functionality for a message on the current development state of the running kernel.</b>
 
 Focus was placed on learning about and understanding /proc, how to communicate between user-space and kernel-space, as well as how to load and unload kernel modules while the kernel is running.
 
