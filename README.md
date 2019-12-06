@@ -20,12 +20,12 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 - download <i>devstate.c</i> and <i>Makefile</i> from folder "Code" in this GitHub
 - <b>sudo -s</b> - to stay in superuser mode
 - <b>apt-get install linux-headers-generic</b> - installs Linux headers (if you need to)
-- run <b>make</b> command within directory devstate.c and accompanying Makefile are located
-- <b>insmod devstate.ko</b> - loads the module into the kernel
-- <b>lsmod</b> - lists kernel modules that are currently running, look for devstate
+- run <b>make</b> command within directory <i>devstate.c</i> and accompanying <i>Makefile</i> are located
+- <b>insmod devstate.ko</b> - load the module into the kernel
+- <b>lsmod</b> - list kernel modules that are currently running, look for devstate
 - <i>To Write: </i><b>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</b> - updates/overwrites previous development state message
 - <i>To Read: </i><b>cat /proc/devstate</b> - get current development state message
-- <b>rmmod devstate</b> - removes module from kernel
+- <b>rmmod devstate</b> - remove module from kernel
 
 ***
 
