@@ -16,11 +16,13 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - <i>apt-get install linux-headers-generic</i> - installs Linux headers (if you need to)
 - run <i>make</i> command within directory procfun.c and accompanying Makefile are located
 - <i>insmod procfun.ko</i> - loads the module into the kernel
+
 Write command:
 - <i>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</i> - overwrites previous development state message
 
 Read command:
 - <i>cat /proc/devstate</i> - get current development state message
+
 - <i>lsmod</i> - lists which loadable kernel modules are currently running, look for procfun
 - <i>rmmod procfun</i> - removes module from kernel
 
