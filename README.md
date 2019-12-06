@@ -17,7 +17,7 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 ***
 
 <b>To Use on a Linux machine:</b>
-- download devstate.c and Makefile from folder "Code" in this GitHub
+- download <i>devstate.c</i> and <i>Makefile</i> from folder "Code" in this GitHub
 - <b>sudo -s</b> - to stay in superuser mode
 - <b>apt-get install linux-headers-generic</b> - installs Linux headers (if you need to)
 - run <b>make</b> command within directory devstate.c and accompanying Makefile are located
