@@ -54,7 +54,7 @@ static int open_the_proc(struct inode *inode, struct file *file){
 /*-----------------------------------------------------------------------*/
 static struct file_operations new_fops={ //defined in linux/fs.h
 	.owner = THIS_MODULE,
-	.open = open_the_proc,
+	.open = open_the_proc,	//open
 	.release = single_release,
 	.read = seq_read,	//read
 	.write = write_msg,	//write
