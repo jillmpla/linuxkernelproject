@@ -23,5 +23,6 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 - <i>To Read: </i><b>cat /proc/devstate</b> - get current development state message
 - <b>rmmod devstate</b> - removes module from kernel
 
-<b>Linux distribution/kernel used - Linux Mint 19.2, kernel: 4.15.0-54-generic, x86-64 architecture.</b>
-Also used <a href="https://www.virtualbox.org/">Virtual Box</a> for testing.
+<b>Tools Used:</b>
+Linux distribution/kernel - Linux Mint 19.2, kernel: 4.15.0-54-generic, x86-64 architecture.</b>
+<a href="https://www.virtualbox.org/">Virtual Box</a>
