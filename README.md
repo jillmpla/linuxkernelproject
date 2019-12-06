@@ -31,7 +31,7 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 
 <b>Tools Used:</b>
 
-<a href="https://www.jetbrains.com/clion/" target="_blank">IDE: CLion</a>
+IDE: <a href="https://www.jetbrains.com/clion/" target="_blank">CLion</a>
 
 <a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a>
 
