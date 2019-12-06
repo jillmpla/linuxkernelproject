@@ -5,7 +5,7 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 <b>Overview:</b>
 
 - The proc file system is a virtual file system created when the system boots and destroyed at system shut down. It contains information about various processes running and is generally considered the main kernel information source.
-- Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and can be added without recompiling the entire kernel. They are particularly useful when developing for the kernel.
+- Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and can be added without recompiling the entire kernel. They are particularly useful when developing for the kernel, debugging a kernel, and much more.
 
 <b>To Use on a Linux machine:</b>
 - download procfun.c and Makefile from folder "Code" in this GitHub
