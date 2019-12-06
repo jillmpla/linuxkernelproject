@@ -8,12 +8,12 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and they can be added without recompiling the entire kernel. They are particularly useful when working with kernel code.
 
 <b>To Use:</b>
-- download procfun.c and makefile from folder "ToUse" in this GitHub
+- download procfun.c and Makefile from folder "ToUse" in this GitHub
 - <i>sudo -s</i> - to stay in superuser mode
 - <i>apt-get install linux-headers-generic</i> - installs Linux headers
-- run <i>make</i> command within directory procfun.c and accompanying make file are located
+- run <i>make</i> command within directory procfun.c and accompanying Makefile are located
 - <i>insmod procfun.ko</i> - loads the module into the kernel
-- <i>cat /proc/hello_proc</i> - make sure the /proc entry was made
+- <i>cat /proc/magiceightball</i> - make sure the /proc entry was made
 - <i>lsmod</i> - lists which loadable kernel modules are currently running, look for procfun
 - <i>rmmod procfun</i> - removes module from kernel
 
