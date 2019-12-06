@@ -10,6 +10,8 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - Current developer / development status can be written and read via the command-line / user-space, helping to keep track of what part of the kernel was last worked on, when it was last worked on, and who last worked on it.
 - <i>Can easily be repurposed to keep track of other information relevant while the Linux OS/kernel is running.</i>
 
+Please view powerpoint (Linux.pptx file) for further details on the project.
+
 <b>To Use on a Linux machine:</b>
 - download devstate.c and Makefile from folder "Code" in this GitHub
 - <b>sudo -s</b> - to stay in superuser mode
@@ -20,7 +22,5 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - <i>To Write: </i><b>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</b> - updates/overwrites previous development state message
 - <i>To Read: </i><b>cat /proc/devstate</b> - get current development state message
 - <b>rmmod devstate</b> - removes module from kernel
-
-Please view powerpoint (Linux.pptx file) for further details on the project.
 
 <b>Linux distribution/kernel used - Linux Mint 19.2, kernel: 4.15.0-54-generic, x86-64 architecture.</b>
