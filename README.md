@@ -10,7 +10,7 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 <b>To Use:</b>
 - download procfun.c and Makefile from folder "ToUse" in this GitHub
 - <i>sudo -s</i> - to stay in superuser mode
-- <i>apt-get install linux-headers-generic</i> - installs Linux headers
+- <i>apt-get install linux-headers-generic</i> - installs Linux headers (if you haven't already)
 - run <i>make</i> command within directory procfun.c and accompanying Makefile are located
 - <i>insmod procfun.ko</i> - loads the module into the kernel
 - <i>cat /proc/magiceightball</i> - make sure the /proc entry was made
