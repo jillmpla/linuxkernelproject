@@ -4,11 +4,11 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 
 <b>Overview:</b>
 
-- The proc file system is a virtual file system created when the system boots and destroyed at system shut down. It contains information about various processes running and is generally considered the main kernel information source while the kernel is running.
+- The proc file system is a virtual file system created when the system boots and destroyed at system shut down. It contains information about various processes running and is generally considered the main kernel information source about the kernel while the kernel is running.
 - Linux kernel supports loadable device drivers / kernel modules. These can be added at runtime and can be added without recompiling the entire kernel. They are particularly useful when developing for the kernel and debugging the kernel while the kernel is live.
-- After building the C program, it can be loaded to create a new file under /proc.
-- Current development status can be written and read via the command-line / user-space, helping to keep track of what was last edited, when it was last edited, and who last edited it.
-- Can easily be repurposed to keep track of other information relevant while the Linux OS/kernel is live and running.
+- After building the C program available in this GitHub, it can be loaded to create a new "pseudo"-file under /proc.
+- Current developer/development status can be written and read via the command-line / user-space, helping to keep track of what part of the kernel was last worked on, when it was last worked on, and who last worked on it.
+- Can easily be repurposed to keep track of other information relevant while the Linux OS/kernel is running.
 
 <b>To Use on a Linux machine:</b>
 - download devstate.c and Makefile from folder "Code" in this GitHub
