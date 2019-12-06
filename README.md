@@ -12,7 +12,7 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - Current developer / development status can be written and read via the command-line / user-space, helping to keep track of what part of the kernel was last worked on, when it was last worked on, and who last worked on it.
 - <i>Project can easily be repurposed to keep track of other information relevant while the Linux OS/kernel is running.</i>
 
-Please view powerpoint (Linux.pptx file) for further details on the project.
+Please view powerpoint (Linux.pptx file in this GitHub) for further details on the project.
 
 ***
 
