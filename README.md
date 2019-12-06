@@ -2,6 +2,8 @@
 
 Focus was placed on learning about and understanding /proc, how to communicate between user-space and kernel-space, as well as how to load and unload kernel modules while the kernel is running.
 
+***
+
 <b>Project Overview:</b>
 
 - The proc file system is a virtual file system created when the system boots and destroyed at system shut down. It contains information about various processes running and is generally considered the main kernel information source about the kernel while the kernel is running.
@@ -11,6 +13,8 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - <i>Project could be repurposed to keep track of other information relevant while the Linux OS/kernel is running.</i>
 
 Please view powerpoint (Linux.pptx file) for further details on the project.
+
+***
 
 <b>To Use on a Linux machine:</b>
 - download devstate.c and Makefile from folder "Code" in this GitHub
@@ -23,8 +27,10 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 - <i>To Read: </i><b>cat /proc/devstate</b> - get current development state message
 - <b>rmmod devstate</b> - removes module from kernel
 
+***
+
 <b>Tools Used:</b>
 
-Linux distribution/kernel - <a href="https://linuxmint.com/" target="_blank">Linux Mint 19.2 Cinnamon</a>, kernel: 4.15.0-54-generic, x86-64 architecture.</b>
+Linux distribution/kernel - <a href="https://linuxmint.com/" target="_blank">Linux Mint 19.2 Cinnamon</a>, kernel: <a href="https://www.kernel.org/" target="_blank">4.15.0-54-generic</a>, x86-64 architecture.</b>
 
 <a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a>
