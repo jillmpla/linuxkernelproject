@@ -22,7 +22,6 @@ Write command:
 
 Read command:
 - <i>cat /proc/devstate</i> - get current development state message
-
 - <i>lsmod</i> - lists which loadable kernel modules are currently running, look for procfun
 - <i>rmmod procfun</i> - removes module from kernel
 
