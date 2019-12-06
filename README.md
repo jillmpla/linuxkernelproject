@@ -19,4 +19,4 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 
 Please view powerpoint (Linux.pptx file) for further details on the project.
 
-<b>Linux distribution/kernel used - Linux Mint 19.2, kernel 4.15.0-54-generic, x86-64 architecture.</b>
+<b>Linux distribution/kernel used - Linux Mint 19.2, kernel: 4.15.0-54-generic, x86-64 architecture.</b>
