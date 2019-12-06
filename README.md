@@ -1,6 +1,6 @@
 <b>A loadable Linux Kernel Module (LKM) that can read and write between user-space and kernel-space, via /proc.</b>
 
-Focus was placed on learning about and understanding /proc, how to communicate between user-space and kernel-space, as well as how to load and unload Kernel modules while the kernel is running.
+Focus was placed on learning about and understanding /proc, how to communicate between user-space and kernel-space, as well as how to load and unload kernel modules while the kernel is running.
 
 <b>Overview:</b>
 
