@@ -11,7 +11,7 @@
 //metadata
 /*-----------------------------------------------------------------------*/
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Jill PLatts");
+MODULE_AUTHOR("Jill Platts");
 MODULE_DESCRIPTION("Creates /proc entry with read/write functionality.");
 
 static char *message = NULL;
