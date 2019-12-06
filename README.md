@@ -11,15 +11,15 @@ Focus was placed on learning about and understanding /proc, how to communicate b
 - Can easily be repurposed to keep track of other information relevant while the Linux OS/kernel is live and running.
 
 <b>To Use on a Linux machine:</b>
-- download procfun.c and Makefile from folder "Code" in this GitHub
+- download devstate.c and Makefile from folder "Code" in this GitHub
 - <i>sudo -s</i> - to stay in superuser mode
 - <i>apt-get install linux-headers-generic</i> - installs Linux headers (if you need to)
-- run <i>make</i> command within directory procfun.c and accompanying Makefile are located
-- <i>insmod procfun.ko</i> - loads the module into the kernel
-- <b>Write: </b><i>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</i> - overwrites previous development state message
-- <b>Read: </b><i>cat /proc/devstate</i> - get current development state message
-- <i>lsmod</i> - lists which loadable kernel modules are currently running, look for procfun
-- <i>rmmod procfun</i> - removes module from kernel
+- run <i>make</i> command within directory devstate.c and accompanying Makefile are located
+- <i>insmod devstate.ko</i> - loads the module into the kernel
+- <i>lsmod</i> - lists what kernel modules are currently running, look for procfun
+- <b>To Write: </b><i>echo "Date:12/01/19, Time:12:00PM, Working on:/proc file system, Author:JPlatts" >> /proc/devstate</i> - overwrites previous development state message
+- <b>To Read: </b><i>cat /proc/devstate</i> - get current development state message
+- <i>rmmod devstate</i> - removes module from kernel
 
 Please view powerpoint (Linux.pptx file) for further details on the project.
 
