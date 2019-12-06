@@ -31,6 +31,8 @@ Please view powerpoint (Linux.pptx file) for further details on the project.
 
 <b>Tools Used:</b>
 
+<a href="https://www.jetbrains.com/clion/" target="_blank">IDE: CLion</a>
+
 <a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a>
 
 Linux distribution / kernel - <a href="https://linuxmint.com/" target="_blank">Linux Mint 19.2 Cinnamon</a>, kernel: <a href="https://www.kernel.org/" target="_blank">4.15.0-54-generic</a>, x86-64 architecture.</b>
