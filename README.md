@@ -34,3 +34,5 @@ Please view powerpoint (Linux.pptx file in this GitHub) for further details on t
 <a href="https://www.virtualbox.org/" target="_blank">Virtual Box</a>
 
 Linux distribution / kernel - <a href="https://linuxmint.com/" target="_blank">Linux Mint 19.2 Cinnamon</a>, kernel: <a href="https://www.kernel.org/" target="_blank">4.15.0-54-generic</a>, x86-64 architecture.</b>
+
+<a href="https://github.com/torvalds/linux" target="_blank">Linux Kernel Documentation</a>
